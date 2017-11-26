@@ -1,0 +1,40 @@
+/*Developer: Pegah Tavakoli */
+#facebook, #twitter, #instagram, #youtube{
+	display:block;
+	float:left;
+	width:52px;
+	height:52px;
+    border: solid 2px LightSeaGreen;
+}
+
+#facebook{
+    background:url("../css/css_images/socialmedia.png")0px 0px;
+}
+
+#twitter{
+    background:url("../css/css_images/socialmedia.png") -52px -52px;
+}
+
+#instagram{
+    background:url("../css/css_images/socialmedia.png") -52px 0px;
+}
+
+#youtube{
+    background:url("../css/css_images/socialmedia.png")0px -52px;
+}
+
+#facebook:link, #twitter:link, #instagram:link, #youtube:link{
+	border: solid 2px LightSeaGreen;
+}
+
+#facebook:visited, #twitter:visited, #instagram:visited, #youtube:visited{
+	border: solid 2px LightSeaGreen;
+}
+
+#facebook:hover, #twitter:hover, #instagram:hover, #youtube:hover{
+	border: solid 2px #FFFFFF;
+}
+
+#facebook:active, #twitter:active, #instagram:active, #youtube:active{
+	border: solid 2px #fee555;
+}
