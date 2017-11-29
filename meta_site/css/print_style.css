@@ -1,5 +1,4 @@
 /* Pegah Tavakoli */
-/* I want the print layout only show the main content */
 
 body, main{
     color: black;
@@ -16,14 +15,13 @@ h1, h2, h3, h4, h5, h6{
     page-break-after: avoid;
 }
 section{
-	/* 	 */
-    page-break-before:always;
+    page-break-after:always;
+}
 
-}
-header{
-	/* allow the logo in the header to display */
-}
 footer{
+	display:none;
+}
+nav{
 	display:none;
 }
 nav>ul{
@@ -36,9 +34,6 @@ main{
 	border-width:0px 2px;
 	width:90%;
 	font-size:.85em;
-}
-aside{
-	display:none;
 }
 /*
 be sure any external hyperlinks
@@ -57,18 +52,7 @@ a:link, a:visited {
     text-decoration: underline;
 	}
 
-
-/*
-hide the inappropraitely colored image...
-*/
 header img {
 	display:none;
 }
-/*
-add our own logo image content to a tag that 
-is still displaying...
 
-*/
-header div:after {
-	content:url("../images/logo_print.png");
-}

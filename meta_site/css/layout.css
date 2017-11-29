@@ -118,31 +118,6 @@ p, content{
         height: auto;
 }
 
-.pagination {
-    display: inline-block;
-}
-
-.pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-
-.rotate {
-     -webkit-transition:all 2s ease-in-out;
-    -webkit-perspective: 800px;
-    -webkit-perspective-origin: 50% 100px;   
-}
-
-.rotate:hover {
-    -webkit-transform:rotateX(180deg);
-}
-
-.rotatediv{
-    position: relative;
-}
 
 /*--------------------------Client has a wide screen-----------------------*/
 @media only screen and (min-width:760px){
